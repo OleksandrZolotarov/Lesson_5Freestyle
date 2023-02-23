@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:400,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Babylonica:400&display=swap);
+
+body {
+   font-family: Inter, sans-serif;
+   font-size: 18px;
+   line-height: 175%;
+   /* 31.5/18 */
+   color: white;
+   background-color: black;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+.content {
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 150%;
+   /* 22.5/15 */
+   margin-left: 70px;
+   text-transform: capitalize;
+}
+
+ol.list {
+   margin-left: 30px;
+}
+
+a {
+   color: white;
+}
+
+.title {
+   font-weight: 700;
+   font-size: 40px;
+   font-style: normal;
+   line-height: 150%;
+   /* 60/40 */
+   margin-left: 30px;
+   margin-bottom: 20px;
+   padding-top: 10px;
+   padding-right: 5px;
+   padding-bottom: 8px;
+   padding-left: 6px;
+   max-width: 700px;
+}
+
+.img {
+   width: 800px;
+   height: 400px;
+   margin-left: 300px;
+}
+
+p.text {
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+h2 {
+   margin: 100px auto;
+   max-width: 400px;
+   text-align: center;
+}
+
+.par1sec1 {
+   min-height: 200px;
+}
+
+/* ________________________________________Poligon____________________________ */
+
+
+div.par1 {
+   font-family: Babylonica, sans-serif;
+   font-size: 30px;
+   max-width: 600px;
+   min-height: 200px;
+   padding: 20px 30px 25px 40px;
+   margin: 0 0 30px 50px;
+   color: red
+}
+
+.par2 {
+   padding: 20px 50px;
+   max-width: 500px;
+   overflow: scroll;
+}
+
+.par3 {
+   box-sizing: content-box;
+   max-height: 300px;
+   width: 200px;
+
+   padding-left: 100px;
+}
+
+.par4 {
+   max-height: 300px;
+   width: 200px;
+
+   padding-left: 100px;
+}
